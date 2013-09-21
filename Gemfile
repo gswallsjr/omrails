@@ -8,11 +8,12 @@ gem 'rails_12factor'
 gem 'rails', '4.0.0.rc2'
 
 gem 'devise'
-gem 'simple_form'
+gem 'simple_form', '3.0.0.rc'
 
 # Use sqlite3 as the database for Active Record
 group :production do
 	gem 'pg'
+	gem 'simple_form', '3.0.0.rc'
 end
 
 group :development, :test do 
